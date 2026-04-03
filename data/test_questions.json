@@ -32,22 +32,182 @@
           "value": "C", "points": 3
         }
       ]
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "第一次约会，对方迟到了15分钟，你会？",
+        "en": "On a first date, they're 15 minutes late. What do you do?"
+      },
+      "options": [
+        {
+          "text": { "zh": "直接走人，不守时的人不值得等", "en": "Leave – punctuality matters" },
+          "value": "A", "points": 1
+        },
+        {
+          "text": { "zh": "心里记一笔，但先看看对方态度", "en": "Make a mental note, but hear them out" },
+          "value": "B", "points": 2
+        },
+        {
+          "text": { "zh": "没关系啦，路上堵车很正常", "en": "No worries, traffic happens" },
+          "value": "C", "points": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "看到朋友在朋友圈秀恩爱，你内心OS是？",
+        "en": "You see a friend's couple selfie on Moments. Your inner thought?"
+      },
+      "options": [
+        {
+          "text": { "zh": "与我无瓜，划走", "en": "Not my business – scroll past" },
+          "value": "A", "points": 1
+        },
+        {
+          "text": { "zh": "点个赞，但心里想：能撑多久？", "en": "Like it, but think: how long will this last?" },
+          "value": "B", "points": 2
+        },
+        {
+          "text": { "zh": "好甜！马上截图发给闺蜜说我也想要", "en": "So sweet! Screenshot and send to bestie: 'I want this'" },
+          "value": "C", "points": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "暧昧对象突然三天没联系你，你会？",
+        "en": "Your crush doesn't text you for three days. What's your move?"
+      },
+      "options": [
+        {
+          "text": { "zh": "默认对方凉了，我也删了", "en": "Assume it's over and delete the chat" },
+          "value": "A", "points": 1
+        },
+        {
+          "text": { "zh": "翻完对方所有动态，然后忍住不问", "en": "Stalk their posts but hold back from asking" },
+          "value": "B", "points": 2
+        },
+        {
+          "text": { "zh": "直接问：“你是不是把我忘了？”", "en": "Text directly: 'Did you forget about me?'" },
+          "value": "C", "points": 3
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "你认为恋爱中最理想的见面频率是？",
+        "en": "What's your ideal dating frequency?"
+      },
+      "options": [
+        {
+          "text": { "zh": "一个月一两次，各自有空间", "en": "Once or twice a month – space is key" },
+          "value": "A", "points": 1
+        },
+        {
+          "text": { "zh": "每周见一次，刚刚好", "en": "Once a week – just right" },
+          "value": "B", "points": 2
+        },
+        {
+          "text": { "zh": "恨不得每天黏在一起", "en": "Every day if possible – I'm a koala" },
+          "value": "C", "points": 3
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": {
+        "zh": "吵架后，对方主动道歉，你会？",
+        "en": "After a fight, they apologize first. You?"
+      },
+      "options": [
+        {
+          "text": { "zh": "嗯，知道了（内心毫无波澜）", "en": "Okay, got it (emotionless inside)" },
+          "value": "A", "points": 1
+        },
+        {
+          "text": { "zh": "给台阶就下，但下次别再犯", "en": "Take the olive branch – but don't do it again" },
+          "value": "B", "points": 2
+        },
+        {
+          "text": { "zh": "马上原谅，然后主动抱抱", "en": "Forgive instantly and go in for a hug" },
+          "value": "C", "points": 3
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": {
+        "zh": "如果对方突然说“我们需要谈谈”，你第一感觉是？",
+        "en": "If they suddenly say 'We need to talk', your first feeling?"
+      },
+      "options": [
+        {
+          "text": { "zh": "哦，要分手了吧，随你", "en": "Oh, breaking up? Fine by me" },
+          "value": "A", "points": 1
+        },
+        {
+          "text": { "zh": "心跳加速，但假装冷静", "en": "Heart races, but play it cool" },
+          "value": "B", "points": 2
+        },
+        {
+          "text": { "zh": "紧张又期待，说不定是好事呢", "en": "Nervous but hopeful – maybe it's good news" },
+          "value": "C", "points": 3
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": {
+        "zh": "你理想中的恋爱状态用一个词形容？",
+        "en": "Describe your ideal love state in one word."
+      },
+      "options": [
+        {
+          "text": { "zh": "平淡如水", "en": "Peaceful as water" },
+          "value": "A", "points": 1
+        },
+        {
+          "text": { "zh": "细水长流", "en": "Steady and enduring" },
+          "value": "B", "points": 2
+        },
+        {
+          "text": { "zh": "轰轰烈烈", "en": "Passionate and intense" },
+          "value": "C", "points": 3
+        }
+      ]
     }
-    // ... 其余7道题同样结构
   ],
   "results": [
     {
-      "name": {
-        "zh": "消极养老佛系",
-        "en": "Buddhist Retirement"
-      },
+      "name": { "zh": "消极养老佛系", "en": "Buddhist Retirement" },
       "type": "Buddhist_Retirement",
       "scoreRange": [8, 12],
       "description": {
-        "zh": "你像一只在窗台上晒太阳的猫...（完整中文文案）",
-        "en": "You're like a cat sunbathing on a windowsill...（完整英文文案）"
+        "zh": "你的恋爱心理温度只有10°C左右，像一杯忘了喝的冷萃咖啡。你不抗拒爱情，但更享受一个人的自由——追剧、撸猫、吃外卖，偶尔感叹“甜甜的恋爱什么时候轮到我”，但真的有人靠近，你又想缩回自己的壳。你不是冷漠，只是把“随缘”刻进了DNA。或许你曾经历过一些失望，又或者你天生就是低能耗的“智性恋”——更看重精神共鸣而非热烈互动。你的心门没锁，但需要一阵温柔的风才能吹开。不过……你真的不再期待了吗？那个让你秒回的人，可能还没学会发消息而已。",
+        "en": "Your love temperature is around 10°C – like a cold brew you forgot to drink. You don't reject love, but you cherish your freedom more: binging shows, petting cats, ordering takeout. You sigh 'when will sweet love find me?' but when someone approaches, you retreat into your shell. You're not cold – you've just tattooed 'let it be' into your DNA. Maybe you've had disappointments, or you're a natural 'sapiosexual' who values mental connection over fireworks. Your heart isn't locked – it just needs a gentle breeze to open. But… are you really not hoping anymore? The person who makes you reply instantly just doesn't know how to text yet."
+      }
+    },
+    {
+      "name": { "zh": "温热养生系", "en": "Warm & Balanced" },
+      "type": "Warm_Balanced",
+      "scoreRange": [13, 18],
+      "description": {
+        "zh": "你的恋爱心理温度在37.2°C，刚刚好，是能持续燃烧的暖意。你不会恋爱脑上头，也不会冷漠到让对方怀疑人生。你会主动发消息，但不会夺命连环call；你会吃醋，但会给对方解释的机会。你相信爱情需要经营，就像炖一锅汤——火太大会沸，太小会凉。你身上有一种“成熟的浪漫”：会在纪念日准备小惊喜，但也允许对方偶尔忘记。你大概率是“安全型依恋”的代表，既享受亲密，也尊重独立。这样的你，其实最容易遇到长久的幸福。只是别忘了，偶尔也可以任性一下，比如……突然出现在对方公司楼下。",
+        "en": "Your love temperature is 37.2°C – just right, a sustainable warmth. You don't lose your head over love, nor do you leave your partner guessing. You text back but not obsessively; you get jealous but give them a chance to explain. You believe love takes work – like simmering soup: too hot and it boils over, too low and it goes cold. You have a 'mature romance': you plan small surprises for anniversaries but forgive when they forget. You're likely a 'secure attachment' type – enjoying closeness while respecting independence. This makes you most likely to find lasting happiness. Just remember: sometimes be a little spontaneous… like showing up at their office unannounced."
+      }
+    },
+    {
+      "name": { "zh": "欲念满满小爱神", "en": "Eros Overload" },
+      "type": "Eros_Overload",
+      "scoreRange": [19, 24],
+      "description": {
+        "zh": "你的恋爱心理温度高达99°C，差一度就要沸腾！你就像爱情里的小太阳，永远热情洋溢、主动出击。你会记住对方的所有喜好，会在凌晨三点打电话说“我想你了”，会策划一场说走就走的旅行。你的爱炽热、浪漫，甚至带点“恋爱脑”的危险气息——但正是这种不假思索的投入，让被你爱上的人感觉像中了彩票。你有“灵性天赋”般的直觉，总能精准戳中对方的心巴。不过要注意，太烫的水也会烫伤自己。偶尔降温一下，把99°C调成恒温的37.2°C，你会发现爱情更持久。但别担心，你的热情永远是你最迷人的武器。下一个目标，是谁的心被你点燃呢？",
+        "en": "Your love temperature is 99°C – one degree from boiling! You're a little sun in love – always passionate, always making the first move. You remember every little thing they like, call at 3am just to say 'I miss you', and plan spontaneous trips. Your love is fiery, romantic, even a bit 'love-crazed' – but that fearless devotion makes your partner feel like they've won the lottery. You have an almost 'psychic intuition' for exactly what melts their heart. Just remember: water that's too hot can scald. Cooling down to a steady 37.2°C might make love last longer. But don't worry – your passion will always be your deadliest weapon. Who's next to have their heart set on fire by you?"
       }
     }
-    // ... 其余结果
   ]
 }
