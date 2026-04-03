@@ -1,34 +1,57 @@
 {
   "title": {
     "zh": "测测你的恋爱心理温度",
-    "en": "What's Your Love Temperature?"
+    "zh-TW": "測測你的戀愛心理溫度",
+    "en": "What's Your Love Temperature?",
+    "jp": "あなたの恋愛心理温度をチェック"
   },
   "description": {
     "zh": "是心动啊～还是心不动？来，8道小问题，看看你在爱情里是热情小太阳，还是佛系养老选手。",
-    "en": "Heart racing or heart resting? 8 questions to reveal your love style – from sunshine lover to Zen master."
+    "zh-TW": "是心動啊～還是心不動？來，8道小問題，看看你在愛情裡是熱情小太陽，還是佛系養老選手。",
+    "en": "Heart racing or heart resting? 8 questions to reveal your love style – from sunshine lover to Zen master.",
+    "jp": "ときめく？それともときめかない？8つの質問で、あなたの恋愛スタイルを診断 – 情熱的な太陽タイプ？それとも仏系・老後準備タイプ？"
   },
   "coverImageStyle": {
     "zh": "粉紫色渐变背景，中央有一个半透明的心形轮廓，心形内是一支温度计，温度计从冷蓝渐变到暖红。",
-    "en": "Purple-pink gradient background with a semi-transparent heart outline containing a thermometer from cool blue to warm red."
+    "zh-TW": "粉紫色漸變背景，中央有一個半透明的心形輪廓，心形內是一支溫度計，溫度計從冷藍漸變到暖紅。",
+    "en": "Purple-pink gradient background with a semi-transparent heart outline containing a thermometer from cool blue to warm red.",
+    "jp": "パープルピンクのグラデーション背景。中央に半透明のハートの輪郭、その中に温度計 – 青から赤へのグラデーション。"
   },
   "questions": [
     {
       "id": 1,
       "text": {
         "zh": "周末下午，你收到一条“在干嘛？”的消息，第一反应是？",
-        "en": "On a weekend afternoon, you get a text saying 'What are you up to?' Your first reaction?"
+        "zh-TW": "週末下午，你收到一條「在幹嘛？」的訊息，第一反應是？",
+        "en": "On a weekend afternoon, you get a text saying 'What are you up to?' Your first reaction?",
+        "jp": "週末の午後、「何してる？」というメッセージが届いたら、最初の反応は？"
       },
       "options": [
         {
-          "text": { "zh": "又要找我帮忙？先晾一会儿", "en": "They probably need a favor – leave on read" },
+          "text": {
+            "zh": "又要找我帮忙？先晾一会儿",
+            "zh-TW": "又要找我幫忙？先晾一會兒",
+            "en": "They probably need a favor – leave on read",
+            "jp": "また助けてほしいのか？しばらく放置"
+          },
           "value": "A", "points": 1
         },
         {
-          "text": { "zh": "有点开心但故意慢点回", "en": "A little happy but wait a bit to reply" },
+          "text": {
+            "zh": "有点开心但故意慢点回",
+            "zh-TW": "有點開心但故意慢點回",
+            "en": "A little happy but wait a bit to reply",
+            "jp": "ちょっと嬉しいけど、わざとゆっくり返す"
+          },
           "value": "B", "points": 2
         },
         {
-          "text": { "zh": "秒回！甚至想发语音", "en": "Reply immediately – maybe even a voice note" },
+          "text": {
+            "zh": "秒回！甚至想发语音",
+            "zh-TW": "秒回！甚至想發語音",
+            "en": "Reply immediately – maybe even a voice note",
+            "jp": "即レス！ボイスメッセージも送りたい"
+          },
           "value": "C", "points": 3
         }
       ]
@@ -37,19 +60,36 @@
       "id": 2,
       "text": {
         "zh": "第一次约会，对方迟到了15分钟，你会？",
-        "en": "On a first date, they're 15 minutes late. What do you do?"
+        "zh-TW": "第一次約會，對方遲到了15分鐘，你會？",
+        "en": "On a first date, they're 15 minutes late. What do you do?",
+        "jp": "初デートで相手が15分遅刻したら、どうする？"
       },
       "options": [
         {
-          "text": { "zh": "直接走人，不守时的人不值得等", "en": "Leave – punctuality matters" },
+          "text": {
+            "zh": "直接走人，不守时的人不值得等",
+            "zh-TW": "直接走人，不守時的人不值得等",
+            "en": "Leave – punctuality matters",
+            "jp": "すぐに立ち去る – 時間を守れない人は待つ価値がない"
+          },
           "value": "A", "points": 1
         },
         {
-          "text": { "zh": "心里记一笔，但先看看对方态度", "en": "Make a mental note, but hear them out" },
+          "text": {
+            "zh": "心里记一笔，但先看看对方态度",
+            "zh-TW": "心裡記一筆，但先看看對方態度",
+            "en": "Make a mental note, but hear them out",
+            "jp": "心の中でメモするが、まずは相手の態度を見る"
+          },
           "value": "B", "points": 2
         },
         {
-          "text": { "zh": "没关系啦，路上堵车很正常", "en": "No worries, traffic happens" },
+          "text": {
+            "zh": "没关系啦，路上堵车很正常",
+            "zh-TW": "沒關係啦，路上塞車很正常",
+            "en": "No worries, traffic happens",
+            "jp": "大丈夫だよ、道が混んでることもあるよね"
+          },
           "value": "C", "points": 3
         }
       ]
@@ -58,19 +98,36 @@
       "id": 3,
       "text": {
         "zh": "看到朋友在朋友圈秀恩爱，你内心OS是？",
-        "en": "You see a friend's couple selfie on Moments. Your inner thought?"
+        "zh-TW": "看到朋友在朋友圈放閃，你內心OS是？",
+        "en": "You see a friend's couple selfie on Moments. Your inner thought?",
+        "jp": "友達がWeChatモーメンツでラブラブ投稿をしているのを見た時の心の声は？"
       },
       "options": [
         {
-          "text": { "zh": "与我无瓜，划走", "en": "Not my business – scroll past" },
+          "text": {
+            "zh": "与我无瓜，划走",
+            "zh-TW": "與我無關，滑走",
+            "en": "Not my business – scroll past",
+            "jp": "関係ない – スクロール"
+          },
           "value": "A", "points": 1
         },
         {
-          "text": { "zh": "点个赞，但心里想：能撑多久？", "en": "Like it, but think: how long will this last?" },
+          "text": {
+            "zh": "点个赞，但心里想：能撑多久？",
+            "zh-TW": "點個讚，但心裡想：能撐多久？",
+            "en": "Like it, but think: how long will this last?",
+            "jp": "いいねを押すけど、心の中では：どのくらい続くかな？"
+          },
           "value": "B", "points": 2
         },
         {
-          "text": { "zh": "好甜！马上截图发给闺蜜说我也想要", "en": "So sweet! Screenshot and send to bestie: 'I want this'" },
+          "text": {
+            "zh": "好甜！马上截图发给闺蜜说我也想要",
+            "zh-TW": "好甜！馬上截圖傳給閨蜜說我也想要",
+            "en": "So sweet! Screenshot and send to bestie: 'I want this'",
+            "jp": "甘い！すぐスクショして親友に「これ欲しい」と送る"
+          },
           "value": "C", "points": 3
         }
       ]
@@ -79,19 +136,36 @@
       "id": 4,
       "text": {
         "zh": "暧昧对象突然三天没联系你，你会？",
-        "en": "Your crush doesn't text you for three days. What's your move?"
+        "zh-TW": "曖昧對象突然三天沒聯繫你，你會？",
+        "en": "Your crush doesn't text you for three days. What's your move?",
+        "jp": "いい感じの相手が3日間連絡してこなかったら、どうする？"
       },
       "options": [
         {
-          "text": { "zh": "默认对方凉了，我也删了", "en": "Assume it's over and delete the chat" },
+          "text": {
+            "zh": "默认对方凉了，我也删了",
+            "zh-TW": "默認對方涼了，我也刪了",
+            "en": "Assume it's over and delete the chat",
+            "jp": "もう終わったと思い、トークも削除"
+          },
           "value": "A", "points": 1
         },
         {
-          "text": { "zh": "翻完对方所有动态，然后忍住不问", "en": "Stalk their posts but hold back from asking" },
+          "text": {
+            "zh": "翻完对方所有动态，然后忍住不问",
+            "zh-TW": "翻完對方所有動態，然後忍住不問",
+            "en": "Stalk their posts but hold back from asking",
+            "jp": "相手の全ての投稿を見た後、問い合わせを我慢する"
+          },
           "value": "B", "points": 2
         },
         {
-          "text": { "zh": "直接问：“你是不是把我忘了？”", "en": "Text directly: 'Did you forget about me?'" },
+          "text": {
+            "zh": "直接问：“你是不是把我忘了？”",
+            "zh-TW": "直接問：「你是不是把我忘了？」",
+            "en": "Text directly: 'Did you forget about me?'",
+            "jp": "直接「私のこと忘れた？」と聞く"
+          },
           "value": "C", "points": 3
         }
       ]
@@ -100,19 +174,36 @@
       "id": 5,
       "text": {
         "zh": "你认为恋爱中最理想的见面频率是？",
-        "en": "What's your ideal dating frequency?"
+        "zh-TW": "你認為戀愛中最理想的見面頻率是？",
+        "en": "What's your ideal dating frequency?",
+        "jp": "恋愛で理想のデート頻度は？"
       },
       "options": [
         {
-          "text": { "zh": "一个月一两次，各自有空间", "en": "Once or twice a month – space is key" },
+          "text": {
+            "zh": "一个月一两次，各自有空间",
+            "zh-TW": "一個月一兩次，各自有空間",
+            "en": "Once or twice a month – space is key",
+            "jp": "月1～2回 – 自分の時間が大事"
+          },
           "value": "A", "points": 1
         },
         {
-          "text": { "zh": "每周见一次，刚刚好", "en": "Once a week – just right" },
+          "text": {
+            "zh": "每周见一次，刚刚好",
+            "zh-TW": "每週見一次，剛剛好",
+            "en": "Once a week – just right",
+            "jp": "週1回 – ちょうどいい"
+          },
           "value": "B", "points": 2
         },
         {
-          "text": { "zh": "恨不得每天黏在一起", "en": "Every day if possible – I'm a koala" },
+          "text": {
+            "zh": "恨不得每天黏在一起",
+            "zh-TW": "恨不得每天黏在一起",
+            "en": "Every day if possible – I'm a koala",
+            "jp": "できれば毎日くっついていたい – コアラタイプ"
+          },
           "value": "C", "points": 3
         }
       ]
@@ -121,19 +212,36 @@
       "id": 6,
       "text": {
         "zh": "吵架后，对方主动道歉，你会？",
-        "en": "After a fight, they apologize first. You?"
+        "zh-TW": "吵架後，對方主動道歉，你會？",
+        "en": "After a fight, they apologize first. You?",
+        "jp": "喧嘩後、相手が先に謝ってきたら、どうする？"
       },
       "options": [
         {
-          "text": { "zh": "嗯，知道了（内心毫无波澜）", "en": "Okay, got it (emotionless inside)" },
+          "text": {
+            "zh": "嗯，知道了（内心毫无波澜）",
+            "zh-TW": "嗯，知道了（內心毫無波瀾）",
+            "en": "Okay, got it (emotionless inside)",
+            "jp": "うん、わかった（心は無表情）"
+          },
           "value": "A", "points": 1
         },
         {
-          "text": { "zh": "给台阶就下，但下次别再犯", "en": "Take the olive branch – but don't do it again" },
+          "text": {
+            "zh": "给台阶就下，但下次别再犯",
+            "zh-TW": "給台階就下，但下次別再犯",
+            "en": "Take the olive branch – but don't do it again",
+            "jp": "謝罪を受け入れるが、次はやらないで"
+          },
           "value": "B", "points": 2
         },
         {
-          "text": { "zh": "马上原谅，然后主动抱抱", "en": "Forgive instantly and go in for a hug" },
+          "text": {
+            "zh": "马上原谅，然后主动抱抱",
+            "zh-TW": "馬上原諒，然後主動抱抱",
+            "en": "Forgive instantly and go in for a hug",
+            "jp": "すぐに許して、自分からハグ"
+          },
           "value": "C", "points": 3
         }
       ]
@@ -142,19 +250,36 @@
       "id": 7,
       "text": {
         "zh": "如果对方突然说“我们需要谈谈”，你第一感觉是？",
-        "en": "If they suddenly say 'We need to talk', your first feeling?"
+        "zh-TW": "如果對方突然說「我們需要談談」，你第一感覺是？",
+        "en": "If they suddenly say 'We need to talk', your first feeling?",
+        "jp": "相手が突然「話がある」と言ったら、最初の感情は？"
       },
       "options": [
         {
-          "text": { "zh": "哦，要分手了吧，随你", "en": "Oh, breaking up? Fine by me" },
+          "text": {
+            "zh": "哦，要分手了吧，随你",
+            "zh-TW": "哦，要分手了吧，隨你",
+            "en": "Oh, breaking up? Fine by me",
+            "jp": "ああ、別れるの？好きにすれば"
+          },
           "value": "A", "points": 1
         },
         {
-          "text": { "zh": "心跳加速，但假装冷静", "en": "Heart races, but play it cool" },
+          "text": {
+            "zh": "心跳加速，但假装冷静",
+            "zh-TW": "心跳加速，但假裝冷靜",
+            "en": "Heart races, but play it cool",
+            "jp": "ドキドキするけど、冷静を装う"
+          },
           "value": "B", "points": 2
         },
         {
-          "text": { "zh": "紧张又期待，说不定是好事呢", "en": "Nervous but hopeful – maybe it's good news" },
+          "text": {
+            "zh": "紧张又期待，说不定是好事呢",
+            "zh-TW": "緊張又期待，說不定是好事呢",
+            "en": "Nervous but hopeful – maybe it's good news",
+            "jp": "緊張しつつも期待 – もしかしたら良い話かも"
+          },
           "value": "C", "points": 3
         }
       ]
@@ -163,19 +288,36 @@
       "id": 8,
       "text": {
         "zh": "你理想中的恋爱状态用一个词形容？",
-        "en": "Describe your ideal love state in one word."
+        "zh-TW": "你理想中的戀愛狀態用一個詞形容？",
+        "en": "Describe your ideal love state in one word.",
+        "jp": "理想の恋愛状態を一言で表すと？"
       },
       "options": [
         {
-          "text": { "zh": "平淡如水", "en": "Peaceful as water" },
+          "text": {
+            "zh": "平淡如水",
+            "zh-TW": "平淡如水",
+            "en": "Peaceful as water",
+            "jp": "水のように穏やか"
+          },
           "value": "A", "points": 1
         },
         {
-          "text": { "zh": "细水长流", "en": "Steady and enduring" },
+          "text": {
+            "zh": "细水长流",
+            "zh-TW": "細水長流",
+            "en": "Steady and enduring",
+            "jp": "長く続く穏やかな流れ"
+          },
           "value": "B", "points": 2
         },
         {
-          "text": { "zh": "轰轰烈烈", "en": "Passionate and intense" },
+          "text": {
+            "zh": "轰轰烈烈",
+            "zh-TW": "轟轟烈烈",
+            "en": "Passionate and intense",
+            "jp": "情熱的で激しい"
+          },
           "value": "C", "points": 3
         }
       ]
@@ -183,30 +325,51 @@
   ],
   "results": [
     {
-      "name": { "zh": "消极养老佛系", "en": "Buddhist Retirement" },
+      "name": {
+        "zh": "消极养老佛系",
+        "zh-TW": "消極養老佛系",
+        "en": "Buddhist Retirement",
+        "jp": "消極的・仏系老後準備タイプ"
+      },
       "type": "Buddhist_Retirement",
       "scoreRange": [8, 12],
       "description": {
         "zh": "你的恋爱心理温度只有10°C左右，像一杯忘了喝的冷萃咖啡。你不抗拒爱情，但更享受一个人的自由——追剧、撸猫、吃外卖，偶尔感叹“甜甜的恋爱什么时候轮到我”，但真的有人靠近，你又想缩回自己的壳。你不是冷漠，只是把“随缘”刻进了DNA。或许你曾经历过一些失望，又或者你天生就是低能耗的“智性恋”——更看重精神共鸣而非热烈互动。你的心门没锁，但需要一阵温柔的风才能吹开。不过……你真的不再期待了吗？那个让你秒回的人，可能还没学会发消息而已。",
-        "en": "Your love temperature is around 10°C – like a cold brew you forgot to drink. You don't reject love, but you cherish your freedom more: binging shows, petting cats, ordering takeout. You sigh 'when will sweet love find me?' but when someone approaches, you retreat into your shell. You're not cold – you've just tattooed 'let it be' into your DNA. Maybe you've had disappointments, or you're a natural 'sapiosexual' who values mental connection over fireworks. Your heart isn't locked – it just needs a gentle breeze to open. But… are you really not hoping anymore? The person who makes you reply instantly just doesn't know how to text yet."
+        "zh-TW": "你的戀愛心理溫度只有10°C左右，像一杯忘了喝的冷萃咖啡。你不抗拒愛情，但更享受一個人的自由——追劇、撸貓、吃外賣，偶爾感嘆「甜甜的戀愛什麼時候輪到我」，但真的有人靠近，你又想縮回自己的殼。你不是冷漠，只是把「隨緣」刻進了DNA。或許你曾經歷過一些失望，又或者你天生就是低能耗的「智性戀」——更看重精神共鳴而非熱烈互動。你的心門沒鎖，但需要一陣溫柔的風才能吹開。不過……你真的不再期待了嗎？那個讓你秒回的人，可能還沒學會發訊息而已。",
+        "en": "Your love temperature is around 10°C – like a cold brew you forgot to drink. You don't reject love, but you cherish your freedom more: binging shows, petting cats, ordering takeout. You sigh 'when will sweet love find me?' but when someone approaches, you retreat into your shell. You're not cold – you've just tattooed 'let it be' into your DNA. Maybe you've had disappointments, or you're a natural 'sapiosexual' who values mental connection over fireworks. Your heart isn't locked – it just needs a gentle breeze to open. But… are you really not hoping anymore? The person who makes you reply instantly just doesn't know how to text yet.",
+        "jp": "あなたの恋愛心理温度は約10°C。飲み忘れたコールドブリューコーヒーのようです。恋愛を拒否しているわけではないけれど、一人の自由を楽しんでいる――ドラマを観て、猫を撫でて、出前を頼む。時々「甘い恋愛っていつ来るの？」と嘆くけど、誰かが近づいてくるとまた自分の殻に引っ込んでしまう。冷たいのではなく、「縁に任せる」をDNAに刻み込んでいるだけ。もしかしたら過去に失望を経験したか、あるいは生まれつき低エネルギーの「智性恋（知的な共鳴を重視するタイプ）」かもしれない。あなたの心の扉は鍵がかかっていないけれど、開けるには優しい風が必要。でも……本当にもう期待していないの？あなたを即レスさせるあの人は、まだメッセージの送り方を覚えていないだけかもしれないよ。"
       }
     },
     {
-      "name": { "zh": "温热养生系", "en": "Warm & Balanced" },
+      "name": {
+        "zh": "温热养生系",
+        "zh-TW": "溫熱養生系",
+        "en": "Warm & Balanced",
+        "jp": "温熱・養生タイプ"
+      },
       "type": "Warm_Balanced",
       "scoreRange": [13, 18],
       "description": {
         "zh": "你的恋爱心理温度在37.2°C，刚刚好，是能持续燃烧的暖意。你不会恋爱脑上头，也不会冷漠到让对方怀疑人生。你会主动发消息，但不会夺命连环call；你会吃醋，但会给对方解释的机会。你相信爱情需要经营，就像炖一锅汤——火太大会沸，太小会凉。你身上有一种“成熟的浪漫”：会在纪念日准备小惊喜，但也允许对方偶尔忘记。你大概率是“安全型依恋”的代表，既享受亲密，也尊重独立。这样的你，其实最容易遇到长久的幸福。只是别忘了，偶尔也可以任性一下，比如……突然出现在对方公司楼下。",
-        "en": "Your love temperature is 37.2°C – just right, a sustainable warmth. You don't lose your head over love, nor do you leave your partner guessing. You text back but not obsessively; you get jealous but give them a chance to explain. You believe love takes work – like simmering soup: too hot and it boils over, too low and it goes cold. You have a 'mature romance': you plan small surprises for anniversaries but forgive when they forget. You're likely a 'secure attachment' type – enjoying closeness while respecting independence. This makes you most likely to find lasting happiness. Just remember: sometimes be a little spontaneous… like showing up at their office unannounced."
+        "zh-TW": "你的戀愛心理溫度在37.2°C，剛剛好，是能持續燃燒的暖意。你不會戀愛腦上頭，也不會冷漠到讓對方懷疑人生。你會主動發訊息，但不會奪命連環call；你會吃醋，但會給對方解釋的機會。你相信愛情需要經營，就像燉一鍋湯——火太大會沸，太小會涼。你身上有一種「成熟的浪漫」：會在紀念日準備小驚喜，但也允許對方偶爾忘記。你大概率是「安全型依戀」的代表，既享受親密，也尊重獨立。這樣的你，其實最容易遇到長久的幸福。只是別忘了，偶爾也可以任性一下，比如……突然出現在對方公司樓下。",
+        "en": "Your love temperature is 37.2°C – just right, a sustainable warmth. You don't lose your head over love, nor do you leave your partner guessing. You text back but not obsessively; you get jealous but give them a chance to explain. You believe love takes work – like simmering soup: too hot and it boils over, too low and it goes cold. You have a 'mature romance': you plan small surprises for anniversaries but forgive when they forget. You're likely a 'secure attachment' type – enjoying closeness while respecting independence. This makes you most likely to find lasting happiness. Just remember: sometimes be a little spontaneous… like showing up at their office unannounced.",
+        "jp": "あなたの恋愛心理温度は37.2°C – ちょうど良く、持続可能な温かさ。恋愛脳で暴走することも、相手を疑うほど冷たくもならない。自分からメッセージを送るけど、連続着信はしない。嫉妬もするけど、説明する機会は与える。恋愛は経営が必要だと思っている――スープを煮るように、火が強すぎると沸騰し、弱すぎると冷める。あなたには「成熟したロマンス」がある：記念日に小さなサプライズを用意するけど、相手がたまに忘れることも許せる。おそらく「安全型愛着」の代表格。親密さを楽しみつつ、自立も尊重する。そんなあなたは、実は一番長続きする幸せに出会いやすい。ただ忘れないで――たまにはわがままもOK。例えば……相手の会社の下に突然現れるとか。"
       }
     },
     {
-      "name": { "zh": "欲念满满小爱神", "en": "Eros Overload" },
+      "name": {
+        "zh": "欲念满满小爱神",
+        "zh-TW": "慾念滿滿小愛神",
+        "en": "Eros Overload",
+        "jp": "欲望満々の小エロス"
+      },
       "type": "Eros_Overload",
       "scoreRange": [19, 24],
       "description": {
         "zh": "你的恋爱心理温度高达99°C，差一度就要沸腾！你就像爱情里的小太阳，永远热情洋溢、主动出击。你会记住对方的所有喜好，会在凌晨三点打电话说“我想你了”，会策划一场说走就走的旅行。你的爱炽热、浪漫，甚至带点“恋爱脑”的危险气息——但正是这种不假思索的投入，让被你爱上的人感觉像中了彩票。你有“灵性天赋”般的直觉，总能精准戳中对方的心巴。不过要注意，太烫的水也会烫伤自己。偶尔降温一下，把99°C调成恒温的37.2°C，你会发现爱情更持久。但别担心，你的热情永远是你最迷人的武器。下一个目标，是谁的心被你点燃呢？",
-        "en": "Your love temperature is 99°C – one degree from boiling! You're a little sun in love – always passionate, always making the first move. You remember every little thing they like, call at 3am just to say 'I miss you', and plan spontaneous trips. Your love is fiery, romantic, even a bit 'love-crazed' – but that fearless devotion makes your partner feel like they've won the lottery. You have an almost 'psychic intuition' for exactly what melts their heart. Just remember: water that's too hot can scald. Cooling down to a steady 37.2°C might make love last longer. But don't worry – your passion will always be your deadliest weapon. Who's next to have their heart set on fire by you?"
+        "zh-TW": "你的戀愛心理溫度高達99°C，差一度就要沸騰！你就像愛情裡的小太陽，永遠熱情洋溢、主動出擊。你會記住對方的所有喜好，會在凌晨三點打電話說「我想你了」，會策劃一場說走就走的旅行。你的愛熾熱、浪漫，甚至帶點「戀愛腦」的危險氣息——但正是這種不假思索的投入，讓被你愛上的人感覺像中了彩券。你有「靈性天賦」般的直覺，總能精準戳中對方的心巴。不過要注意，太燙的水也會燙傷自己。偶爾降溫一下，把99°C調成恆溫的37.2°C，你會發現愛情更持久。但別擔心，你的熱情永遠是你最迷人的武器。下一個目標，是誰的心被你點燃呢？",
+        "en": "Your love temperature is 99°C – one degree from boiling! You're a little sun in love – always passionate, always making the first move. You remember every little thing they like, call at 3am just to say 'I miss you', and plan spontaneous trips. Your love is fiery, romantic, even a bit 'love-crazed' – but that fearless devotion makes your partner feel like they've won the lottery. You have an almost 'psychic intuition' for exactly what melts their heart. Just remember: water that's too hot can scald. Cooling down to a steady 37.2°C might make love last longer. But don't worry – your passion will always be your deadliest weapon. Who's next to have their heart set on fire by you?",
+        "jp": "あなたの恋愛心理温度は99°C – あと1度で沸騰！あなたは恋愛における小さな太陽。いつも情熱的で、自ら行動する。相手の好きなことを全て覚えていて、深夜3時に「会いたい」と電話し、思い立ったら旅に出る。あなたの愛は熱く、ロマンチックで、少し「恋愛脳」の危険な香りもする――でもこの迷いのない没入感こそ、あなたに愛された人を宝くじに当たった気分にさせる。あなたには「霊的な才能」のような直感があり、いつも相手の心のど真ん中を突く。ただ気をつけて：熱すぎる水は自分も火傷する。たまに温度を下げて、99°Cを37.2°Cの定温に調整すると、恋愛が長続きすることに気づくはず。でも大丈夫、あなたの情熱はいつだって最も魅力的な武器。次のターゲットは、誰の心を燃やしますか？"
       }
     }
   ]
