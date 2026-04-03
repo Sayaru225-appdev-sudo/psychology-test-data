@@ -53,6 +53,15 @@
             "jp": "即レス！ボイスメッセージも送りたい"
           },
           "value": "C", "points": 3
+        },
+        {
+          "text": {
+            "zh": "随便回一句，然后继续做自己的事",
+            "zh-TW": "隨便回一句，然後繼續做自己的事",
+            "en": "Give a casual reply and go back to what I was doing",
+            "jp": "適当に返事して、自分のことを続ける"
+          },
+          "value": "D", "points": 2
         }
       ]
     },
@@ -91,6 +100,15 @@
             "jp": "大丈夫だよ、道が混んでることもあるよね"
           },
           "value": "C", "points": 3
+        },
+        {
+          "text": {
+            "zh": "继续等，但见面后会委婉表达不满",
+            "zh-TW": "繼續等，但見面後會委婉表達不滿",
+            "en": "Keep waiting, then gently express my displeasure after we meet",
+            "jp": "待ち続けるが、会った後に不満をやんわり伝える"
+          },
+          "value": "D", "points": 2
         }
       ]
     },
@@ -129,6 +147,15 @@
             "jp": "甘い！すぐスクショして親友に「これ欲しい」と送る"
           },
           "value": "C", "points": 3
+        },
+        {
+          "text": {
+            "zh": "真心点赞，祝福他们",
+            "zh-TW": "真心點讚，祝福他們",
+            "en": "Sincerely like it and wish them well",
+            "jp": "心からいいねを押し、お祝いの気持ちを送る"
+          },
+          "value": "D", "points": 2
         }
       ]
     },
@@ -167,6 +194,15 @@
             "jp": "直接「私のこと忘れた？」と聞く"
           },
           "value": "C", "points": 3
+        },
+        {
+          "text": {
+            "zh": "主动发个轻松的话题试探一下",
+            "zh-TW": "主動發個輕鬆的話題試探一下",
+            "en": "Send a light, casual topic to test the waters",
+            "jp": "軽い話題を送って様子を見る"
+          },
+          "value": "D", "points": 2
         }
       ]
     },
@@ -205,6 +241,15 @@
             "jp": "できれば毎日くっついていたい – コアラタイプ"
           },
           "value": "C", "points": 3
+        },
+        {
+          "text": {
+            "zh": "看情况，忙就少见，闲就多见",
+            "zh-TW": "看情況，忙就少見，閒就多見",
+            "en": "It depends – less when busy, more when free",
+            "jp": "状況次第 – 忙しい時は少なく、暇な時は多く"
+          },
+          "value": "D", "points": 2
         }
       ]
     },
@@ -243,6 +288,15 @@
             "jp": "すぐに許して、自分からハグ"
           },
           "value": "C", "points": 3
+        },
+        {
+          "text": {
+            "zh": "接受道歉，但说需要一点时间消化",
+            "zh-TW": "接受道歉，但說需要一點時間消化",
+            "en": "Accept the apology but say I need a little time to process",
+            "jp": "謝罪は受け入れるが、少し時間が必要だと伝える"
+          },
+          "value": "D", "points": 2
         }
       ]
     },
@@ -281,6 +335,15 @@
             "jp": "緊張しつつも期待 – もしかしたら良い話かも"
           },
           "value": "C", "points": 3
+        },
+        {
+          "text": {
+            "zh": "好奇地问：“什么事呀？”",
+            "zh-TW": "好奇地問：「什麼事呀？」",
+            "en": "Curiously ask: 'What about?'",
+            "jp": "興味津々で「何のこと？」と聞く"
+          },
+          "value": "D", "points": 2
         }
       ]
     },
@@ -319,6 +382,15 @@
             "jp": "情熱的で激しい"
           },
           "value": "C", "points": 3
+        },
+        {
+          "text": {
+            "zh": "相互成就",
+            "zh-TW": "相互成就",
+            "en": "Mutual fulfillment",
+            "jp": "互いに高め合う"
+          },
+          "value": "D", "points": 2
         }
       ]
     }
