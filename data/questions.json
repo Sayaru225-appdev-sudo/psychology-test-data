@@ -1,0 +1,53 @@
+{
+  "title": {
+    "zh": "测测你的恋爱心理温度",
+    "en": "What's Your Love Temperature?"
+  },
+  "description": {
+    "zh": "是心动啊～还是心不动？来，8道小问题，看看你在爱情里是热情小太阳，还是佛系养老选手。",
+    "en": "Heart racing or heart resting? 8 questions to reveal your love style – from sunshine lover to Zen master."
+  },
+  "coverImageStyle": {
+    "zh": "粉紫色渐变背景，中央有一个半透明的心形轮廓，心形内是一支温度计，温度计从冷蓝渐变到暖红。",
+    "en": "Purple-pink gradient background with a semi-transparent heart outline containing a thermometer from cool blue to warm red."
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "周末下午，你收到一条“在干嘛？”的消息，第一反应是？",
+        "en": "On a weekend afternoon, you get a text saying 'What are you up to?' Your first reaction?"
+      },
+      "options": [
+        {
+          "text": { "zh": "又要找我帮忙？先晾一会儿", "en": "They probably need a favor – leave on read" },
+          "value": "A", "points": 1
+        },
+        {
+          "text": { "zh": "有点开心但故意慢点回", "en": "A little happy but wait a bit to reply" },
+          "value": "B", "points": 2
+        },
+        {
+          "text": { "zh": "秒回！甚至想发语音", "en": "Reply immediately – maybe even a voice note" },
+          "value": "C", "points": 3
+        }
+      ]
+    }
+    // ... 其余7道题同样结构
+  ],
+  "results": [
+    {
+      "name": {
+        "zh": "消极养老佛系",
+        "en": "Buddhist Retirement"
+      },
+      "type": "Buddhist_Retirement",
+      "scoreRange": [8, 12],
+      "description": {
+        "zh": "你像一只在窗台上晒太阳的猫...（完整中文文案）",
+        "en": "You're like a cat sunbathing on a windowsill...（完整英文文案）"
+      }
+    }
+    // ... 其余结果
+  ]
+}
